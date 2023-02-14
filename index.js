@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 // require('./db/db')
 const path = require('path')
 const express = require('express')
-const PORT = process.env.port || 5000
+const PORT = process.env.PORT || 5000
 const app = express()
 const Register = require('./routes/Register')
 const Login = require('./routes/Login')
